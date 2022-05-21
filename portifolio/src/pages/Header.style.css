@@ -1,0 +1,43 @@
+.header {
+    background-color: #1E2233;
+    color: white;
+    margin-top: 90px;
+    padding: 3em;
+    text-align: center;
+    width: 114vw;
+    height: 250vw;
+}
+
+@media(min-width: 1075px) {
+   .header{
+    width: 100vw;
+    height: 30vw;
+   } 
+
+   .foto-sobre {
+        margin-left: 70px;
+   }
+}
+
+
+
+.sobre-mim h1 {
+    color: white;
+    font-size: 2em;
+}
+
+.sobre-mim a {
+    text-decoration: underline #9BAEBF;
+    color: white;
+}
+
+.foto-sobre {
+    
+    float: left;
+    border: transparent thin solid;
+    padding: 5px;
+   
+    max-width: 280px;
+}
+
+

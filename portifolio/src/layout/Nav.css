@@ -1,0 +1,39 @@
+
+.list {
+    display:  flex;
+    list-style: none;
+    align-items: center;
+    font-size: 1.0em;
+    
+    
+}
+
+.item {
+    margin-right: 1em;
+    
+}
+
+.item a {
+    color:white ;
+    text-decoration: none;
+}
+
+.item a:hover {
+    color: #E85B52;
+
+    }
+
+.nav-item {
+    text-decoration: none;
+}
+
+.navbar-brand {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-right: 0;
+}
+
+@media (min-width: 994px) {
+    .navbar-brand{
+        margin-right: 60vw;
+        }
+}
